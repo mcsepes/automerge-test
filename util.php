@@ -1,4 +1,4 @@
 <?php
-function capitalizeName($str) {
+function capitalizeString($str) {
     return ucfirst(strtolower($str));
 }

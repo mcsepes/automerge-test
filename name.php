@@ -3,7 +3,7 @@ require_once 'util.php';
 
 $name = '';
 if (isset($_POST['name'])) {
-    $name = capitalizeName($_POST['name']);
+    $name = capitalizeString($_POST['name']);
     echo "Hello, $name!";
 }
 ?>
